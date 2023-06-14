@@ -4,6 +4,8 @@ title: معرفی
 nav_order: 1
 ---
 
+<div dir="auto">
+
 # What is Zabbix
 ## Overview
 Zabbix was created by Alexei Vladishev, and currently is actively developed and supported by Zabbix SIA.
@@ -124,3 +126,5 @@ Zabbix agents are deployed on monitoring targets to actively monitor local resou
 
 ## Data flow
 In addition it is important to take a step back and have a look at the overall data flow within Zabbix. In order to create an item that gathers data you must first create a host. Moving to the other end of the Zabbix spectrum you must first have an item to create a trigger. You must have a trigger to create an action. Thus if you want to receive an alert that your CPU load is too high on Server X you must first create a host entry for Server X followed by an item for monitoring its CPU, then a trigger which activates if the CPU is too high, followed by an action which sends you an email. While that may seem like a lot of steps, with the use of templating it really isn't. However, due to this design it is possible to create a very flexible setup.
+
+</div>
