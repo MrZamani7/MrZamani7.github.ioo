@@ -29,75 +29,75 @@ Many organizations of different size around the world rely on Zabbix as a primar
 ## Overview
 Zabbix is a highly integrated network monitoring solution, offering a multiplicity of features in a single package.
 
-## Data gathering
+### Data gathering
 
 availability and performance checks
 support for SNMP (both trapping and polling), IPMI, JMX, VMware monitoring
 custom checks
 gathering desired data at custom intervals
 performed by server/proxy and by agents
-## Flexible threshold definitions
+### Flexible threshold definitions
 
 you can define very flexible problem thresholds, called triggers, referencing values from the backend database
-## Highly configurable alerting
+### Highly configurable alerting
 
 sending notifications can be customized for the escalation schedule, recipient, media type
 notifications can be made meaningful and helpful using macro variables
 automatic actions include remote commands
-## Real-time graphing
+### Real-time graphing
 
 monitored items are immediately graphed using the built-in graphing functionality
-## Web monitoring capabilities
+### Web monitoring capabilities
 
 Zabbix can follow a path of simulated mouse clicks on a web site and check for functionality and response time
-## Extensive visualization options
+### Extensive visualization options
 
 ability to create custom graphs that can combine multiple items into a single view
 network maps
 slideshows in a dashboard-style overview
 reports
 high-level (business) view of monitored resources
-## Historical data storage
+### Historical data storage
 
 data stored in a database
 configurable history
 built-in housekeeping procedure
-## Easy configuration
+### Easy configuration
 
 add monitored devices as hosts
 hosts are picked up for monitoring, once in the database
 apply templates to monitored devices
-## Use of templates
+### Use of templates
 
 grouping checks in templates
 templates can inherit other templates
-## Network discovery
+### Network discovery
 
 automatic discovery of network devices
 agent autoregistration
 discovery of file systems, network interfaces and SNMP OIDs
-## Fast web interface
+### Fast web interface
 
 a web-based frontend in PHP
 accessible from anywhere
 you can click your way through
 audit log
-## Zabbix API
+### Zabbix API
 
 Zabbix API provides programmable interface to Zabbix for mass manipulations, third-party software integration and other purposes.
 Permissions system
 
 secure user authentication
 certain users can be limited to certain views
-## Full featured and easily extensible agent
+### Full featured and easily extensible agent
 
 deployed on monitoring targets
 can be deployed on both Linux and Windows
-## Binary daemons
+### Binary daemons
 
 written in C, for performance and small memory footprint
 easily portable
-## Ready for complex environments
+### Ready for complex environments
 
 remote monitoring made easy by using a Zabbix proxy
 
@@ -107,19 +107,19 @@ remote monitoring made easy by using a Zabbix proxy
 ## Architecture
 Zabbix consists of several major software components. Their responsibilities are outlined below.
 
-## Server
+### Server
 Zabbix server is the central component to which agents report availability and integrity information and statistics. The server is the central repository in which all configuration, statistical and operational data are stored.
 
-## Database storage
+### Database storage
 All configuration information as well as the data gathered by Zabbix is stored in a database.
 
-## Web interface
+### Web interface
 For an easy access to Zabbix from anywhere and from any platform, the web-based interface is provided. The interface is part of Zabbix server, and usually (but not necessarily) runs on the same physical machine as the one running the server.
 
-## Proxy
+### Proxy
 Zabbix proxy can collect performance and availability data on behalf of Zabbix server. A proxy is an optional part of Zabbix deployment; however, it may be very beneficial to distribute the load of a single Zabbix server.
 
-## Agent
+### Agent
 Zabbix agents are deployed on monitoring targets to actively monitor local resources and applications and report the gathered data to Zabbix server. Since Zabbix 4.4, there are two types of agents available: the Zabbix agent (lightweight, supported on many platforms, written in C) and the Zabbix agent 2 (extra-flexible, easily extendable with plugins, written in Go).
 
 ## Data flow
