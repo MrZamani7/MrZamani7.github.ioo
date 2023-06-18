@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: دفترچه راهنمای زبیکس
 nav_exclude: true
 ---
