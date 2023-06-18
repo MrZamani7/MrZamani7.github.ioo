@@ -5,4 +5,4 @@ nav_exclude: true
 ---
 
 # دفترچه راهنمای زبیکس
-Welcome to the user manual for Zabbix software. These pages are created to help users successfully manage their monitoring tasks with Zabbix, from the simple to the more complex ones.
+به سایت راهنمای فارسی نرم افزار Zabbix خوش آمدید. این صفحات با هدف کمک به کاربران جهت انجام موفق کارهای ساده تا پیشرفته تر مانیتورینگ ایجاد شده است.
